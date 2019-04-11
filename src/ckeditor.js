@@ -17,6 +17,7 @@ import Subscript from '@ckeditor/ckeditor5-basic-styles/src/subscript';
 import Superscript from '@ckeditor/ckeditor5-basic-styles/src/superscript';
 import Underline from '@ckeditor/ckeditor5-basic-styles/src/underline';
 import BlockQuote from '@ckeditor/ckeditor5-block-quote/src/blockquote';
+// import Snippets from 'ckeditor5-snippets/src/snippets';
 import CKFinder from '@ckeditor/ckeditor5-ckfinder/src/ckfinder';
 import EasyImage from '@ckeditor/ckeditor5-easy-image/src/easyimage';
 import Heading from '@ckeditor/ckeditor5-heading/src/heading';
@@ -48,6 +49,7 @@ ClassicEditor.builtinPlugins = [
 	Bold,
 	Italic,
 	BlockQuote,
+	// Snippets,
 	CKFinder,
 	EasyImage,
 	Heading,
@@ -100,6 +102,7 @@ ClassicEditor.defaultConfig = {
 			'numberedList',
 			'imageUpload',
 			'blockQuote',
+			// 'snippets',
 			'insertTable',
 			'mediaEmbed',
 			'undo',
